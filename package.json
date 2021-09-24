@@ -1,0 +1,15 @@
+{
+  "name": "js-doc-101",
+  "version": "1.0.0",
+  "description": "Basic demonstarations of JSDoc tags for documentation",
+  "main": "index.js",
+  "scripts": {
+    "start": "jsdoc index.js | live-server --port=3000 --open=out --entry-file=index.html"
+  },
+  "author": "Bikram Keshari Maharana",
+  "license": "ISC",
+  "dependencies": {
+    "jsdoc": "^3.6.7",
+    "live-server": "^1.2.1"
+  }
+}
